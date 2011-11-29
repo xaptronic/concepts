@@ -1,2 +1,4 @@
 pygments: true
 permalink: /posts/:title
+exclude:
+  - build
