@@ -1,2 +1,2 @@
 # This is Codesauce
-* Tasty flavors! *
+_Tasty flavors!_
