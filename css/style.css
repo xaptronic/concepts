@@ -205,21 +205,104 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author:
    ========================================================================== */
+html {
+	background: #ccc;
+}
 
+body {
+    -webkit-box-shadow: 0px 0px 4px #000; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0px 0px 4px #000; /* FF3.5 - 3.6 */
+    box-shadow: 0px 0px 4px #000; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+	margin-top: 10px;
+	background: #fff;
+	min-height: 98%;
+	height: auto;
+}
 
+a,a:visited,a:active,a:link {
+	color: #000;
+}
 
+header {
+	padding-bottom: 10px;
+	border-bottom: solid 1px #ccc;
+	margin-bottom: 10px;
+	padding-top: 40px;
+}
 
+#blog-title {
+	font-family: 'Orbitron';
+	font-size: 1.4rem;
+	font-weight: bold;
+}
 
+#blog-title a {
+	text-decoration: none;
+}
 
+#posts, .links ul {
+	margin: 0;
+	padding: 0;
+}
 
+#posts li {
+	padding-bottom: 10px;
+}
 
+#posts li span {
+	float: right;
+}
 
+.avatar {
+	float: left;
+}
 
+.short-bio {
+	margin-left: 4px;
+	float: left;
+}
 
+.twitter { 
+	padding-top: 4px;
+}
 
+.twtr-hd {
+	display: none;
+}
 
+.twtr-widget .twtr-tweet-wrap {
+	padding: 6px 0!important;
+}
 
+.post h1 {
+	padding-bottom: 10px;
+}
 
+.post p {
+	padding: 5px 0;
+}
+
+.post pre {
+	word-wrap: normal;
+	white-space: pre;
+	overflow: scroll;
+}
+
+.content {
+	border-bottom: solid 1px #CCC;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer p {
+	font-size: 0.8rem;
+	color: #ccc;
+}
 
 /* ==|== media queries ======================================================
    PLACEHOLDER Media Queries for Responsive Design.
